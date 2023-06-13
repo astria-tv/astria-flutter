@@ -1,5 +1,5 @@
 import 'package:astria_flutter/colors.dart';
-import 'package:astria_flutter/views/dashboard.dart';
+import 'package:astria_flutter/router.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,15 +12,14 @@ class Astria extends StatelessWidget {
   // Application root widget.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Astria',
+      debugShowCheckedModeBanner: false,
+      routerConfig: appRouter,
       theme: ThemeData(
         colorScheme: AstriaColors.colorScheme,
         useMaterial3: true,
       ),
-      home: const Dashboard(title: 'Astria'),
     );
   }
 }
-
-

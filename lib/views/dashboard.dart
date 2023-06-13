@@ -4,15 +4,15 @@ import '../colors.dart';
 
 /// The dashboard widget.
 class Dashboard extends StatefulWidget {
-  const Dashboard({super.key, required this.title});
 
-  final String title;
+  /// Constructor
+  const Dashboard({super.key});
 
   @override
   State<Dashboard> createState() => _DashboardState();
 }
 
-/// The state of the dashboard.
+/// Dashboard state class.
 class _DashboardState extends State<Dashboard> {
   int _counter = 0;
 

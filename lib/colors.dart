@@ -9,7 +9,9 @@ abstract final class AstriaColors {
 
   static const Color dark = Color(0xFF171e21);
 
-  static const Color foreground = Color(0xFFd2d2d2);
+  static const Color foreground = Color(0xFFefefef);
+
+  static const Color foregroundDark = Color(0xFF222222);
 
   static const Color highlight = Color(0xFF03fff6);
 
@@ -33,7 +35,7 @@ abstract final class AstriaColors {
     surface: bg,
     background: bg,
     error: Color(0xFFB00020),
-    onPrimary: foreground,
+    onPrimary: foregroundDark,
     onSecondary: foreground,
     onSurface: foreground,
     onBackground: foreground,
