@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 
 /// A collection of colors used in the Astria Flutter app.
 abstract final class AstriaColors {
